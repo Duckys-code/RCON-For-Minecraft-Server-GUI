@@ -33,66 +33,71 @@
 Enjoy managing your Minecraft server without dealing with a million windows or lines of code. Just download, click, and play!
 
 
-☠️ If You Want to Die License (aka, The "I Dare You" License)
+💀 How to Install (If You Want to Die Edition)
 
-Warning:
-By using this version of the software, you're agreeing to the following terms — which may cause unnecessary headaches, spontaneous confusion, and an irrational sense of responsibility. Proceed only if you really, really want to.
+So… you want to run the Python version instead of just using the .exe like a normal person? Bold move. Here's how to do it anyway:
+🐍 Step 1: Install Python (if you don’t already have it)
 
-    Installation Madness
+Go here and download Python:
+👉 https://www.python.org/downloads/
+Make sure to check the box that says “Add Python to PATH” during installation, or things will break, and so will your spirit.
+📁 Step 2: Get the Files
 
-        Step 1: Clone this repository (or download the files, whichever feels like a life decision).
+    Download or clone this repo:
 
-        Step 2: Run this command (you better have Python installed):
+    git clone https://github.com/Duckys-code/RCON-For-Minecraft-Server-GUI.git
 
-        pip install -r requirements.txt
+📦 Step 3: Install Dependencies
 
-        Step 3: Say goodbye to your free time and hello to command line errors that might haunt you forever.
+Open a terminal (or CMD) in the project folder and run:
 
-    If you don't know what any of that means, good luck.
+pip install mcrcon psutil
 
-    Customization Mayhem
+Or if you're using a requirements.txt file:
 
-        You can change the code, tinker with the settings, and even break it all if you want.
+pip install -r requirements.txt
 
-        Remember: This is a "modify at your own risk" deal. If it blows up your computer or your sense of well-being, don't come crying to me. (But please, tell me if you make it better.)
+With this requirements.txt:
 
-    Use at Your Own Peril
+mcrcon
+psutil
 
-        Feel free to use this software in any way you please. But if things go wrong (and they will), don't blame me. I'm just here to provide you with an opportunity to ruin your life—err, I mean, enjoy the software.
+▶️ Step 4: Run the App
 
-    Spontaneous Reboots
+python main.py
 
-        If you hit STOP or RESTART, the server will obey. It will either stop peacefully or restart like a rebellious teenager. You may lose progress, or you may feel powerful. That’s your journey.
+Or if you're really feeling lucky:
 
-    About the Code
+py main.py
 
-        This code is written in Python. If you don't know how to handle Python, I suggest you Google the errors (or YouTube it). Don't bother asking me unless you're ready for a flood of sarcastic responses.
+🧪 Want to Make It an .exe?
 
-    Disclaimers
+So you want pain. Cool. Here’s how to turn your Python script into a shiny .exe:
+Step 1: Install auto-py-to-exe
 
-        I, the author, am not responsible for any loss of data, sleep, or sanity.
+pip install auto-py-to-exe
 
-        Use this code if you enjoy chaos.
+Then launch it:
 
-        Take responsibility for your actions, or be forever haunted by your own decisions.
+auto-py-to-exe
 
-🛠️ Installation (Because Why Not?)
+Step 2: Use the GUI
 
-    Clone or download this repository.
+A wild window appears! Here's what to do:
 
-    Open the terminal or command prompt.
+    Pick your Python file (e.g., main.py).
 
-    Run the following:
+    Select "One File".
 
-    pip install -r requirements.txt
+    Check "Window Based" so no CMD window pops up.
 
-    Run main.py (don't ask questions, just run it).
+    Click "Convert .py to .exe".
 
-    If you made it this far... Congratulations, you’re still alive. But just wait, the fun is only beginning.
+    After some loading magic, it’ll spit out your .exe in the dist folder.
 
-🎉 The End (or is it?)
+✅ Done!
 
-By continuing, you acknowledge that you are fully responsible for everything that happens.
-Feel free to make this your own or burn it to the ground. Either way, you’ve made your choice.
+Run your .exe and enjoy the GUI life.
+No terminals, no drama—just click and go.
 
-Disclaimer: If you die of laughter or frustration, I am in no way legally liable for your actions.
+If anything explodes, it's probably your fault. But hey, that’s the risk you take when using the "If You Want to Die" install route.
